@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: neerajcc/cicdpipeline:2.0
+        image: neerajcc/cicdpipeline:3.0
         ports:
         - containerPort: 8090
