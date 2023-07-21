@@ -4,8 +4,7 @@ metadata:
   name: myapp-service
 spec:
   selector:
-    app: myapp
- type: LoadBalancer  
+    app: myapp 
   ports:
   - port: 8090
     targetPort: 8090
