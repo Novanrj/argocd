@@ -5,7 +5,6 @@ metadata:
 spec:
   selector:
     app: myapp
-  type: LoadBalancer  # Set the Service type to LoadBalancer
   ports:
   - port: 8090
     targetPort: 8090
