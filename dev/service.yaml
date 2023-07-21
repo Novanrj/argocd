@@ -9,6 +9,7 @@ spec:
   - port: 8090
     protocol: TCP
     targetPort: 8090
+
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
@@ -25,4 +26,3 @@ spec:
             name: myapp-service
             port:
               number: 8090
-  
